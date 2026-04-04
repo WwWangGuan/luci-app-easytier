@@ -30,7 +30,7 @@ jobs:
         arch:
           - aarch64_cortex-a53
         sdk:
-          - SNAPSHOT
+          - openwrt-24.10
 
     steps:
       - uses: actions/checkout@v5
